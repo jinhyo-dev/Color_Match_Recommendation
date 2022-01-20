@@ -182,7 +182,7 @@ function App() {
 				</Modal>
 			</div>
 		</div>
-	)
+	);
 }
 
 export default App;
