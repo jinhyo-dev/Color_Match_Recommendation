@@ -9,8 +9,8 @@ body {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width: 35rem;
-  height: 50rem;
+  width: 37rem;
+  height: 55rem;
   border: 1px solid #000;
   background-color: #EFc;
   border-radius: 1rem;
@@ -44,4 +44,32 @@ select {
   cursor: pointer;
   border-radius: 5px;
   width: 7rem;
+}
+
+.modalOpenBtn {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 30px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: #000;
+  color: #fff;
+  border-radius: 1rem;
+}
+
+.modalOpenBtn div {
+  transition: transform 0.8s;
+}
+
+.modalOpenBtn:hover div {
+  transform: translateY(-6px);
+}
+
+.modalOpenBtn:hover {
+  background-color: #222;
+  border: 1px solid #222;
 }
